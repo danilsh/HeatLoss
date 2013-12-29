@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="" prefHeight="508.0" prefWidth="663.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="heatloss.FXMLDocumentController">
+<children><SplitPane dividerPositions="0.29797979797979796" focusTraversable="true" layoutX="206.0" layoutY="174.0" prefHeight="508.0" prefWidth="663.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns:fx="http://javafx.com/fxml">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+        <children>
+            <TreeView fx:id="buildingObjsTree" layoutX="-3.0" layoutY="96.0" prefHeight="506.0" prefWidth="194.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+</children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+<children><SplitPane dividerPositions="0.1" focusTraversable="true" layoutX="100.0" layoutY="91.0" orientation="VERTICAL" prefHeight="506.0" prefWidth="461.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+<children><FlowPane hgap="2.0" layoutX="-62.0" layoutY="-76.5" prefHeight="47.0" prefWidth="459.0" vgap="2.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+<children><Button fx:id="deleteZone" mnemonicParsing="false" text="Удалить зону" visible="false">
+<FlowPane.margin>
+<Insets />
+</FlowPane.margin></Button><Button fx:id="addZone" mnemonicParsing="false" text="Добавить зону" visible="false">
+<FlowPane.margin>
+<Insets />
+</FlowPane.margin></Button><Button fx:id="addCladding" mnemonicParsing="false" text="Добавить ограждающую конструкцию" visible="false" />
+</children>
+<padding>
+<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+</padding></FlowPane>
+</children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+<children><VBox layoutX="55.0" layoutY="226.0" prefHeight="451.0" prefWidth="459.0" spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+<children><HBox fx:id="nameBox" spacing="5.0" visible="false">
+<children><Label layoutX="14.0048828125" layoutY="14.0" text="Название:" /><TextField fx:id="name" layoutX="80.0" layoutY="10.0" />
+</children></HBox>
+</children>
+<padding>
+<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+</padding></VBox>
+</children></AnchorPane>
+  </items>
+</SplitPane>
+</children></AnchorPane>
+  </items>
+</SplitPane>
+</children>
+</AnchorPane>
